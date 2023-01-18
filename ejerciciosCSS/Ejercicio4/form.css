@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    gap: 30;
+    width: 450px;
+    height: 500px;
+    margin: 20px auto;
+    background: #161717;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    align-self: flex-start;
+}
+.google-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    opacity: 0.75;
+}
+
+.google-btn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+.google-btn picture {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+.google-btn picture img{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+}
+
+.twitter-btn {
+    color: #bbb;
+    background-color: #212121;
+    width: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.twitter-btn:hover {
+    background-color: #aaa;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    color: #8b8b8b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.section-inputs {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+.section-inputs label {
+    width: 100%;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 5px;
+    cursor: pointer;
+}
+label span {
+    font-weight: 700;
+}
+
+label input {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    padding: 16px 20px;
+    width: 100%;
+    font-size: 14pt;
+    background: #212121;
+    transition: all 0.2s;
+}
+label input:hover, label input:focus {
+    background: #454045;
+    border: 1px solid #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+label.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+input[type="checkbox"] {
+    width: 18px;
+}
+label.checkbox span {
+    font-weight: 400;
+}
+.submit-btn {
+    background-color: #ea4c89;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+.submit-btn:hover {
+    opacity: 0.75;
+}
