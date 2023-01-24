@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-modern {
+    margin: 10px;
+    padding: 3px;
+    border: none;
+    background: rgb(123, 112, 112);
+    border-radius: 3px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    background: #a23;
+    box-shadow: 0 5px 10px rgb(123, 112, 112);
+    color: rgb(67, 62, 62);
+}
